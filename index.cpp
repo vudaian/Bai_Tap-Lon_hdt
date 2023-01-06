@@ -4,7 +4,7 @@
 #include "math.h"
 #include "conio.h"
 #include "string.h"
-#include "cstdlib" 
+#include "cstdlib"
 #include "iomanip"
 #include "vector"
 using namespace std;
@@ -226,7 +226,7 @@ void Sach :: timKiemSach() {
 }
 //Lưu file
 int Sach :: luuFileSach() {
-    string fileName = "D://Workspace//C_C++//BaiTapLon/databaseSach";
+    string fileName = "D://Workspace//C C++//Bai_Tap-Lon_hdt/databaseSach";
     ofstream file;
     file.open(fileName, ios::out);
     if(!file.is_open()) {
@@ -242,7 +242,7 @@ int Sach :: luuFileSach() {
 }
 //Đọc file
 int Sach :: docFileSach() {
-    string fileName = "D://Workspace//C_C++//BaiTapLon/databaseSach";
+    string fileName = "D://Workspace//C C++//Bai_Tap-Lon_hdt/databaseSach";
     ifstream file;
     file.open(fileName, ios::in);
     if(!file.is_open()) {
@@ -442,7 +442,7 @@ void NhanVien :: timKiemNhanVien() {
 }
 //Lưu file
 int NhanVien :: luuFileNhanVien() {
-    string fileName = "D://Workspace//C_C++//BaiTapLon/databaseNhanVien";
+    string fileName = "D://Workspace//C C++//Bai_Tap-Lon_hdt/databaseNhanVien";
     ofstream file;
     file.open(fileName, ios::out);
     if(!file.is_open()) {
@@ -458,7 +458,7 @@ int NhanVien :: luuFileNhanVien() {
 }
 //Đọc file
 int NhanVien :: docFileNhanVien() {
-    string fileName = "D://Workspace//C_C++//BaiTapLon/databaseNhanVien";
+    string fileName = "D://Workspace//C C++//Bai_Tap-Lon_hdt/databaseNhanVien";
     ifstream file;
     file.open(fileName, ios::in);
     if(!file.is_open()) {
@@ -692,7 +692,7 @@ void User :: timKiemUser() {
 }
 //Lưu file
 int User :: luuFileUser() {
-    string fileName = "D://Workspace//C_C++//BaiTapLon/databaseUser";
+    string fileName = "D://Workspace//C C++//Bai_Tap-Lon_hdt/databaseUser";
     ofstream file;
     file.open(fileName, ios::out);
     if(!file.is_open()) {
@@ -708,7 +708,7 @@ int User :: luuFileUser() {
 }
 //Đọc file
 int User :: docFileUser() {
-    string fileName = "D://Workspace//C_C++//BaiTapLon/databaseUser";
+    string fileName = "D://Workspace//C C++//Bai_Tap-Lon_hdt/databaseUser";
     ifstream file;
     file.open(fileName, ios::in);
     if(!file.is_open()) {
@@ -898,7 +898,7 @@ void MuonTra::xoaMuonTra() {
 }
 void MuonTra::luuFileMuonTra()
 {
-	string fileName = "D://Workspace//C_C++//BaiTapLon/databaseMuonTra";
+	string fileName = "D://Workspace//C C++//Bai_Tap-Lon_hdt/databaseMuonTra";
     ofstream file;
     file.open(fileName, ios::out);
     if(!file.is_open()) {
@@ -913,7 +913,7 @@ void MuonTra::luuFileMuonTra()
 }
 void MuonTra::docFileMuonTra()
 {
-	string fileName = "D://Workspace//C_C++//BaiTapLon/databaseMuonTra";
+	string fileName = "D://Workspace//C C++//Bai_Tap-Lon_hdt/databaseMuonTra";
     ifstream file;
     file.open(fileName, ios::in);
     if(!file.is_open()) {
