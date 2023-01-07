@@ -223,7 +223,7 @@ void Sach :: timKiemSach() {
         C = getch();
         } while (C != 'k');
     }
-}
+} 
 //Lưu file
 int Sach :: luuFileSach() {
     string fileName = "D://Workspace//C C++//Bai_Tap-Lon_hdt/databaseSach";
